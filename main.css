@@ -1,6 +1,5 @@
 body {
     background: url("img/background.jpeg"); /* Links to your background image, which you can also replace with a URL. */
-    overflow: scroll;
     background-size: cover; /* Image covers page. */
     background-repeat: no-repeat; /* Image does not repeat. */
     background-attachment: scroll; /* Image doesn't move when you scroll up or down. */
