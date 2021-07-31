@@ -1,0 +1,73 @@
+.spotifyFrame{
+    padding-left: 2.5vw;
+    padding-top: 2vh;
+    align-content: center;
+    width: 20vw;
+    height: 80vh;
+}
+
+body{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, white, lightskyblue, mediumpurple, rebeccapurple);
+    height: calc(100vh - 3px);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, serif;
+    font-size: 60px;
+    margin: 10px 0;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fefff9;
+}
+
+
+.headerBox{
+    border-radius: 25px;
+    background: #05537c;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 10vh;
+    align-content: center;
+}
+
+.button {
+    display: block;
+    border-radius: 4px;
+    border: none;
+    text-align: right;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.button span {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
