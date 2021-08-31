@@ -9,10 +9,6 @@ for their cover letter.
 Simply reuse and repurpose this repository to form it to be how
 YOU would like it to be used.
 
-<!---
-[pip](https://pip.pypa.io/en/stable/) to use hyperlink
--->
-
 ##Copy this repo for your own
 1. Go to github and sign into YOUR profile
 2. Click add new repository in the upper right corner or goto import [here](https://github.com/new/import)
